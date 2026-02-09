@@ -1,0 +1,78 @@
+{
+  "identifier" : "E5F3D8C4",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "14.99",
+      "familyShareable" : false,
+      "internalID" : "6670001001",
+      "localizations" : [
+        {
+          "description" : "Get 25 minutes of AI-powered appointment calling. Perfect for trying out CallAssist.",
+          "displayName" : "25 Minutes - Starter",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.callassist.minutes.25",
+      "referenceName" : "25 Minutes - Starter Pack",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "49.99",
+      "familyShareable" : false,
+      "internalID" : "6670001002",
+      "localizations" : [
+        {
+          "description" : "Get 100 minutes of AI calling. Great value for regular users.",
+          "displayName" : "100 Minutes - Growth",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.callassist.minutes.100",
+      "referenceName" : "100 Minutes - Growth Pack",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "99.99",
+      "familyShareable" : false,
+      "internalID" : "6670001003",
+      "localizations" : [
+        {
+          "description" : "Get 250 minutes of AI calling at the best rate. Save over 30% per minute!",
+          "displayName" : "250 Minutes - Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.callassist.minutes.250",
+      "referenceName" : "250 Minutes - Pro Pack",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "174.99",
+      "familyShareable" : false,
+      "internalID" : "6670001004",
+      "localizations" : [
+        {
+          "description" : "Get 500 minutes of AI calling. Best for power users and businesses.",
+          "displayName" : "500 Minutes - Business",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.callassist.minutes.500",
+      "referenceName" : "500 Minutes - Business Pack",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "hasStoreKitSyncEnabled" : false
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 4,
+    "minor" : 0
+  }
+}

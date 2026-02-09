@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(python3 -c \" import sys, json for line in sys.stdin: try: obj = json.loads\\(line.strip\\(\\)\\) if obj.get\\(''type''\\) == ''assistant'': msg = obj.get\\(''message'', {}\\).get\\(''content'', ''''\\) if isinstance\\(msg, list\\): for part in msg: if isinstance\\(part, dict\\) and part.get\\(''type''\\) == ''text'': print\\(part[''text''][:300]\\) elif isinstance\\(msg, str\\): print\\(msg[:300]\\) except: pass \")",
+      "Bash(python3:*)",
+      "Bash(do)",
+      "Bash(echo:*)",
+      "Bash(for f in /Users/andrewleone/.claude/projects/$dir/*.jsonl)",
+      "Bash(done)",
+      "WebFetch(domain:docs.vapi.ai)",
+      "Bash(claude:*)",
+      "Bash(/usr/local/bin/claude config set:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "Bash(afplay:*)",
+      "Bash(xcodebuild:*)",
+      "Bash(tee:*)",
+      "Bash(swift:*)",
+      "Bash(git rm:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

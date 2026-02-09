@@ -1,0 +1,16 @@
+# Secrets
+CallAssist/Secrets.plist
+
+# Xcode
+build/
+*.xcuserdata/
+DerivedData/
+*.xcworkspace/xcuserdata/
+
+# macOS
+.DS_Store
+
+# Swift Package Manager
+.build/
+Packages/
+CallAssist/Secrets.plist
