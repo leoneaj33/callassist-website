@@ -14,3 +14,5 @@ DerivedData/
 .build/
 Packages/
 CallAssist/Secrets.plist
+*.xcuserstate
+.claude/settings.local.json
