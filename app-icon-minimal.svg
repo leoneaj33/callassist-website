@@ -1,0 +1,81 @@
+<!-- CallAssist App Icon - Minimal Design (Alternative) -->
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#007AFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#005EDB;stop-opacity:1" />
+    </linearGradient>
+
+    <filter id="innerShadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+      <feOffset dx="0" dy="2" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.2"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="url(#bgGradient)" rx="180"/>
+
+  <!-- Simple Phone + AI Concept -->
+  <g transform="translate(512, 512)">
+
+    <!-- Large Phone Handset Icon (classic receiver shape) -->
+    <g transform="rotate(-30)">
+      <!-- Phone receiver body -->
+      <path d="M -180,-60 Q -200,-80 -180,-100 L -60,-220 Q -40,-240 -20,-220 L 20,-180 Q 40,-160 20,-140 L -100,-20 Q -120,0 -140,-20 L -180,-60 Z"
+            fill="white"
+            stroke="white"
+            stroke-width="6"
+            filter="url(#innerShadow)"/>
+
+      <!-- Speaker holes (left) -->
+      <circle cx="-150" cy="-75" r="8" fill="#007AFF" opacity="0.4"/>
+      <circle cx="-130" cy="-95" r="8" fill="#007AFF" opacity="0.4"/>
+      <circle cx="-110" cy="-115" r="8" fill="#007AFF" opacity="0.4"/>
+
+      <!-- Microphone holes (right) -->
+      <circle cx="-30" cy="-5" r="8" fill="#007AFF" opacity="0.4"/>
+      <circle cx="-50" cy="15" r="8" fill="#007AFF" opacity="0.4"/>
+      <circle cx="-70" cy="35" r="8" fill="#007AFF" opacity="0.4"/>
+    </g>
+
+    <!-- AI Sparkle/Star (top right) -->
+    <g transform="translate(180, -180)">
+      <!-- Main star -->
+      <path d="M 0,-40 L 10,-10 L 40,0 L 10,10 L 0,40 L -10,10 L -40,0 L -10,-10 Z"
+            fill="#00FFB3"
+            stroke="white"
+            stroke-width="4"/>
+      <!-- Small accent star -->
+      <path d="M 50,-20 L 55,-10 L 65,-5 L 55,0 L 50,10 L 45,0 L 35,-5 L 45,-10 Z"
+            fill="#00FFB3"
+            stroke="white"
+            stroke-width="3"/>
+    </g>
+
+    <!-- Sound waves emanating from phone -->
+    <g transform="translate(150, 150)" opacity="0.6">
+      <path d="M 0,0 Q 20,-20 40,-40"
+            fill="none"
+            stroke="white"
+            stroke-width="8"
+            stroke-linecap="round"/>
+      <path d="M 20,20 Q 40,0 60,-20"
+            fill="none"
+            stroke="white"
+            stroke-width="8"
+            stroke-linecap="round"/>
+      <path d="M 40,40 Q 60,20 80,0"
+            fill="none"
+            stroke="white"
+            stroke-width="8"
+            stroke-linecap="round"/>
+    </g>
+
+  </g>
+</svg>

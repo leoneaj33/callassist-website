@@ -1,0 +1,63 @@
+<!-- CallAssist App Icon - Monogram Design (Alternative) -->
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#007AFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0055E5;stop-opacity:1" />
+    </linearGradient>
+
+    <filter id="textShadow">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-opacity="0.3"/>
+    </filter>
+
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E8E8E8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="url(#bgGradient)" rx="180"/>
+
+  <!-- Subtle grid pattern in background -->
+  <g opacity="0.08">
+    <line x1="512" y1="0" x2="512" y2="1024" stroke="white" stroke-width="2"/>
+    <line x1="0" y1="512" x2="1024" y2="512" stroke="white" stroke-width="2"/>
+    <circle cx="512" cy="512" r="300" fill="none" stroke="white" stroke-width="2"/>
+    <circle cx="512" cy="512" r="400" fill="none" stroke="white" stroke-width="2"/>
+  </g>
+
+  <!-- "CA" Monogram -->
+  <g transform="translate(512, 512)" filter="url(#textShadow)">
+    <text x="0" y="0"
+          font-family="SF Pro Display, -apple-system, Helvetica, Arial, sans-serif"
+          font-size="480"
+          font-weight="700"
+          fill="url(#textGradient)"
+          text-anchor="middle"
+          dominant-baseline="central"
+          letter-spacing="-20">
+      CA
+    </text>
+  </g>
+
+  <!-- Small AI indicator badge (bottom right of letters) -->
+  <g transform="translate(700, 650)">
+    <circle cx="0" cy="0" r="60" fill="#00FF88" stroke="white" stroke-width="8"/>
+    <circle cx="0" cy="0" r="35" fill="#007AFF"/>
+    <!-- Microphone icon inside badge -->
+    <g transform="translate(0, 5)">
+      <rect x="-12" y="-20" width="24" height="30" rx="12" fill="white"/>
+      <path d="M -20,-5 Q -20,15 0,25 Q 20,15 20,-5" fill="none" stroke="white" stroke-width="4" stroke-linecap="round"/>
+      <line x1="0" y1="25" x2="0" y2="35" stroke="white" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Corner accent dots -->
+  <g opacity="0.4">
+    <circle cx="180" cy="180" r="12" fill="white"/>
+    <circle cx="844" cy="180" r="12" fill="white"/>
+    <circle cx="180" cy="844" r="12" fill="white"/>
+    <circle cx="844" cy="844" r="12" fill="white"/>
+  </g>
+</svg>
